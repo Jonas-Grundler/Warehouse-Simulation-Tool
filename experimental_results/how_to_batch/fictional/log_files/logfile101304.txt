@@ -1,0 +1,208 @@
+
+###### DATA INFORMATION ########
+simulation_period: 120
+backlog: 100
+min_lead: 30
+arrivals: list = [12, 10, 10, 8, 8, 6, 4, 4] (interval = 15)
+seed_no: 5692
+
+
+###### SIMULATION RUN ########
+simulation_period: 120
+thresholds: 150 (size_ths), 10 (urgency_ths)
+pickers: 5 with capacity 150
+lead time: 10
+batching strategy: static_weighting
+c: 0.25
+seed rule: longest_travel_time
+
+size_criterion fulfilled (650)
+urgency_criterion fulfilled (53.0)
+Backlog before batching: 100 orders (size: 650)
+TIME 0: Batch created with orders [89, 57, 53, 35, 13, 48, 90, 98, 28, 16, 86, 97, 29, 49, 34, 96, 45, 5, 74] (size: 150). 
+Picker 1 starts tour (tour_time: 15.17 min).
+Backlog after batching: 81 orders (size: 500)
+Backlog before batching: 82 orders (size: 513)
+TIME 0.1: Batch created with orders [51, 80, 67, 94, 46, 77, 85, 100, 81, 24, 36, 41, 75, 55, 6, 83, 21, 31, 18, 59, 23, 8, 1, 9, 88, 39] (size: 150). 
+Picker 2 starts tour (tour_time: 18.21 min).
+Backlog after batching: 56 orders (size: 363)
+Backlog before batching: 57 orders (size: 364)
+TIME 0.1: Batch created with orders [56, 66, 102, 92, 19, 12, 42, 33, 14, 61, 87, 82, 64, 25, 44, 26, 11, 70, 101, 91, 37, 32, 2, 62, 20, 60] (size: 150). 
+Picker 3 starts tour (tour_time: 14.62 min).
+Backlog after batching: 31 orders (size: 214)
+Backlog before batching: 32 orders (size: 215)
+TIME 0.2: Batch created with orders [38, 63, 65, 30, 4, 43, 71, 22, 17, 52, 10, 72, 68, 69, 73, 27, 76, 95, 79, 103, 15, 7, 84, 58, 3] (size: 149). 
+Picker 4 starts tour (tour_time: 17.71 min).
+Backlog after batching: 7 orders (size: 66)
+size_criterion fulfilled (150)
+Backlog before batching: 19 orders (size: 150)
+TIME 0.9: Batch created with orders [40, 50, 47, 99, 106, 107, 111, 115, 113, 110, 104, 109, 93, 54, 112, 105, 108, 114, 78] (size: 150). 
+Picker 5 starts tour (tour_time: 17.42 min).
+Backlog after batching: 0 orders (size: 0)
+size_criterion fulfilled (156)
+Backlog before batching: 175 orders (size: 1358)
+TIME 14.7: Batch created with orders [278, 231, 160, 209, 184, 139, 135, 174, 272, 256, 129, 279, 262, 240, 191] (size: 150). 
+Picker 3 starts tour (tour_time: 16.17 min).
+Backlog after batching: 160 orders (size: 1208)
+Backlog before batching: 166 orders (size: 1248)
+TIME 15.2: Batch created with orders [195, 242, 185, 165, 186, 211, 232, 154, 268, 225, 178, 169, 123] (size: 150). 
+Picker 1 starts tour (tour_time: 15.33 min).
+Backlog after batching: 153 orders (size: 1098)
+Backlog before batching: 185 orders (size: 1326)
+TIME 17.9: Batch created with orders [150, 122, 304, 310, 276, 324, 327, 261, 313, 305, 187, 258, 193, 192, 144, 199, 260, 273, 171, 299] (size: 150). 
+Picker 4 starts tour (tour_time: 15.83 min).
+Backlog after batching: 165 orders (size: 1176)
+Backlog before batching: 169 orders (size: 1209)
+TIME 18.3: Batch created with orders [131, 266, 317, 157, 116, 274, 259, 226, 326, 220, 295, 237, 216, 152, 325, 309, 177, 127, 218, 170] (size: 150). 
+Picker 2 starts tour (tour_time: 13.58 min).
+Backlog after batching: 149 orders (size: 1059)
+Backlog before batching: 150 orders (size: 1060)
+TIME 18.3: Batch created with orders [194, 161, 212, 167, 241, 201, 204, 222, 213, 208, 316, 207, 283, 257, 215, 230, 146, 136, 308, 219] (size: 150). 
+Picker 5 starts tour (tour_time: 14.38 min).
+Backlog after batching: 130 orders (size: 910)
+urgency_criterion fulfilled (75.0)
+Backlog before batching: 227 orders (size: 1666)
+TIME 30.5: Batch created with orders [364, 183, 402, 386, 351, 297, 133, 395, 334, 306, 415, 138, 379, 375, 399, 356, 352, 388] (size: 150). 
+Picker 1 starts tour (tour_time: 15.5 min).
+Backlog after batching: 209 orders (size: 1516)
+Backlog before batching: 214 orders (size: 1584)
+TIME 30.9: Batch created with orders [416, 376, 398, 370, 403, 410, 335, 347, 425, 346, 287, 330, 159, 357, 179, 417] (size: 150). 
+Picker 3 starts tour (tour_time: 12.75 min).
+Backlog after batching: 198 orders (size: 1434)
+Backlog before batching: 206 orders (size: 1472)
+TIME 31.9: Batch created with orders [422, 420, 366, 421, 277, 411, 341, 393, 433, 254, 328, 333, 158, 428, 367, 314, 363, 252, 282, 153, 246, 265, 322, 392] (size: 150). 
+Picker 2 starts tour (tour_time: 14.12 min).
+Backlog after batching: 182 orders (size: 1322)
+Backlog before batching: 189 orders (size: 1372)
+TIME 32.7: Batch created with orders [294, 118, 205, 221, 298, 427, 227, 377, 397, 248, 288, 206, 447, 350, 303, 373, 354, 251, 200, 344, 275, 245, 244] (size: 150). 
+Picker 5 starts tour (tour_time: 13.25 min).
+Backlog after batching: 166 orders (size: 1222)
+Backlog before batching: 176 orders (size: 1279)
+TIME 33.7: Batch created with orders [390, 263, 176, 424, 280, 155, 223, 249, 407, 238, 438, 117, 151, 132, 296, 307, 255, 250] (size: 150). 
+Picker 4 starts tour (tour_time: 10.58 min).
+Backlog after batching: 158 orders (size: 1129)
+Backlog before batching: 264 orders (size: 1812)
+TIME 43.6: Batch created with orders [336, 321, 180, 323, 369, 202, 120, 172, 166, 365, 385, 384, 293, 355, 189, 229, 378, 381, 339, 349, 188, 405, 224, 396] (size: 150). 
+Picker 3 starts tour (tour_time: 12.71 min).
+Backlog after batching: 240 orders (size: 1662)
+Backlog before batching: 249 orders (size: 1731)
+TIME 44.3: Batch created with orders [149, 143, 181, 289, 267, 374, 453, 203, 198, 437, 302, 477, 301, 285, 343, 234, 389, 360, 126, 331, 436] (size: 150). 
+Picker 4 starts tour (tour_time: 13.92 min).
+Backlog after batching: 228 orders (size: 1581)
+Backlog before batching: 244 orders (size: 1691)
+TIME 46.0: Batch created with orders [353, 338, 577, 300, 418, 311, 348, 359, 247, 574, 121, 404, 332, 484, 539, 578, 271, 455, 432, 521, 440, 383] (size: 150). 
+Picker 5 starts tour (tour_time: 10.71 min).
+Backlog after batching: 222 orders (size: 1541)
+Backlog before batching: 222 orders (size: 1541)
+TIME 46.0: Batch created with orders [412, 573, 555, 434, 519, 445, 498, 525, 401, 168, 430, 565, 523] (size: 150). 
+Picker 2 starts tour (tour_time: 17.83 min).
+Backlog after batching: 209 orders (size: 1391)
+Backlog before batching: 209 orders (size: 1391)
+TIME 46.0: Batch created with orders [431, 387, 530, 536, 548, 480, 196, 503, 368, 512, 556, 514, 469, 342, 190, 443, 547] (size: 150). 
+Picker 1 starts tour (tour_time: 13.12 min).
+Backlog after batching: 192 orders (size: 1241)
+urgency_criterion fulfilled (143.0)
+Backlog before batching: 290 orders (size: 1940)
+TIME 56.3: Batch created with orders [655, 380, 670, 639, 644, 561, 611, 456, 488, 585, 458, 493, 541, 315, 511, 494, 537, 543, 678, 650, 607] (size: 150). 
+Picker 3 starts tour (tour_time: 16.17 min).
+Backlog after batching: 269 orders (size: 1790)
+Backlog before batching: 273 orders (size: 1814)
+TIME 56.7: Batch created with orders [593, 217, 482, 142, 549, 517, 182, 669, 675, 465, 394, 599, 236, 654, 580] (size: 150). 
+Picker 5 starts tour (tour_time: 13.75 min).
+Backlog after batching: 258 orders (size: 1664)
+Backlog before batching: 270 orders (size: 1755)
+TIME 58.2: Batch created with orders [638, 610, 414, 696, 694, 564, 609, 538, 659, 608, 318, 534, 595, 442, 598, 596, 476, 175, 550] (size: 150). 
+Picker 4 starts tour (tour_time: 12.92 min).
+Backlog after batching: 251 orders (size: 1605)
+Backlog before batching: 264 orders (size: 1708)
+TIME 59.1: Batch created with orders [709, 614, 594, 712, 119, 492, 667, 685, 406, 243, 707, 604, 562, 623, 467, 513, 528, 628, 673, 454] (size: 150). 
+Picker 1 starts tour (tour_time: 13.29 min).
+Backlog after batching: 244 orders (size: 1558)
+Backlog before batching: 291 orders (size: 1875)
+TIME 63.8: Batch created with orders [683, 419, 408, 292, 636, 720, 524, 429, 717, 624, 662, 649, 464, 602, 726, 722, 710, 723, 551, 703, 409, 358, 725] (size: 150). 
+Picker 2 starts tour (tour_time: 16.33 min).
+Backlog after batching: 268 orders (size: 1725)
+Backlog before batching: 317 orders (size: 2037)
+TIME 70.4: Batch created with orders [567, 691, 446, 671, 391, 228, 141, 270, 715, 621, 718, 622, 634, 708, 474, 479, 197, 716, 449, 635, 361, 291] (size: 150). 
+Picker 5 starts tour (tour_time: 15.62 min).
+Backlog after batching: 295 orders (size: 1887)
+Backlog before batching: 301 orders (size: 1969)
+TIME 71.1: Batch created with orders [579, 656, 239, 557, 618, 497, 489, 651, 466, 799, 264, 688, 590, 382, 697, 781, 439, 362, 714, 473, 665, 463, 743, 793, 563] (size: 150). 
+Picker 4 starts tour (tour_time: 11.62 min).
+Backlog after batching: 276 orders (size: 1819)
+Backlog before batching: 283 orders (size: 1873)
+TIME 72.4: Batch created with orders [162, 319, 490, 699, 545, 724, 452, 569, 676, 790, 499, 531, 798, 760, 506, 734, 462, 290, 450, 471, 705, 613, 253, 457, 558, 646] (size: 150). 
+Picker 1 starts tour (tour_time: 12.08 min).
+Backlog after batching: 257 orders (size: 1723)
+Backlog before batching: 257 orders (size: 1723)
+TIME 72.5: Batch created with orders [601, 711, 719, 647, 572, 529, 459, 400, 509, 627, 576, 483, 500, 156, 340, 269, 173, 451, 591, 487, 600, 584, 501, 147, 687, 660, 495] (size: 150). 
+Picker 3 starts tour (tour_time: 10.0 min).
+Backlog after batching: 230 orders (size: 1573)
+Backlog before batching: 303 orders (size: 2147)
+TIME 80.2: Batch created with orders [817, 883, 641, 533, 881, 756, 857, 620, 681, 633, 713, 876, 571, 413, 829, 833, 532, 824, 629, 643] (size: 150). 
+Picker 2 starts tour (tour_time: 13.79 min).
+Backlog after batching: 283 orders (size: 1997)
+Backlog before batching: 305 orders (size: 2147)
+TIME 82.5: Batch created with orders [542, 668, 832, 581, 612, 630, 839, 907, 520, 486, 540, 822, 789, 782, 312] (size: 150). 
+Picker 3 starts tour (tour_time: 18.54 min).
+Backlog after batching: 290 orders (size: 1997)
+Backlog before batching: 293 orders (size: 2023)
+TIME 82.8: Batch created with orders [882, 887, 922, 496, 803, 642, 663, 830, 902, 773, 481, 727, 910, 751, 906, 870, 819, 923, 478, 652] (size: 150). 
+Picker 4 starts tour (tour_time: 13.58 min).
+Backlog after batching: 273 orders (size: 1873)
+Backlog before batching: 285 orders (size: 1936)
+TIME 84.5: Batch created with orders [753, 899, 684, 755, 605, 921, 896, 892, 764, 658, 932, 738, 866, 935, 915] (size: 150). 
+Picker 1 starts tour (tour_time: 14.0 min).
+Backlog after batching: 270 orders (size: 1786)
+Backlog before batching: 281 orders (size: 1857)
+TIME 86.0: Batch created with orders [626, 925, 791, 859, 140, 888, 732, 788, 737, 648, 879, 329, 510, 128, 586, 868, 939, 526, 860, 758, 821] (size: 150). 
+Picker 5 starts tour (tour_time: 13.46 min).
+Backlog after batching: 260 orders (size: 1707)
+Backlog before batching: 305 orders (size: 2028)
+TIME 94.0: Batch created with orders [963, 978, 953, 960, 842, 689, 863, 695, 818, 909, 615, 933] (size: 150). 
+Picker 2 starts tour (tour_time: 14.96 min).
+Backlog after batching: 293 orders (size: 1878)
+Backlog before batching: 301 orders (size: 1942)
+TIME 96.4: Batch created with orders [975, 967, 740, 800, 843, 875, 680, 124, 372, 632, 930, 475, 461, 765, 164, 900, 690, 893, 145, 810, 904, 570, 787, 841] (size: 150). 
+Picker 4 starts tour (tour_time: 13.96 min).
+Backlog after batching: 277 orders (size: 1792)
+Backlog before batching: 289 orders (size: 1879)
+TIME 98.5: Batch created with orders [970, 955, 491, 502, 965, 731, 999, 674, 778, 444, 941, 903, 813, 515, 625, 828, 891, 890, 801, 947, 845, 754, 979, 997] (size: 150). 
+Picker 1 starts tour (tour_time: 10.83 min).
+Backlog after batching: 265 orders (size: 1729)
+Backlog before batching: 270 orders (size: 1765)
+TIME 99.5: Batch created with orders [858, 929, 962, 846, 729, 616, 337, 552, 553, 739, 908, 974, 934, 637, 583, 587, 698, 470, 986, 730, 771, 435, 816, 619, 606, 210, 931, 721] (size: 150). 
+Picker 5 starts tour (tour_time: 11.29 min).
+Backlog after batching: 242 orders (size: 1615)
+Backlog before batching: 245 orders (size: 1641)
+TIME 101.0: Batch created with orders [664, 749, 582, 784, 735, 836, 679, 905, 914, 823, 952, 889, 811, 884, 873, 535, 814, 958, 805, 785, 575] (size: 150). 
+Picker 3 starts tour (tour_time: 13.75 min).
+Backlog after batching: 224 orders (size: 1491)
+Backlog before batching: 250 orders (size: 1662)
+TIME 108.9: Batch created with orders [704, 869, 757, 770, 423, 603, 855, 163, 779, 957, 837, 874, 1047, 795, 809, 920, 767, 786, 982, 940, 1006, 1029] (size: 139). 
+Picker 2 starts tour (tour_time: 11.08 min).
+Backlog after batching: 228 orders (size: 1523)
+Backlog before batching: 228 orders (size: 1523)
+TIME 109.3: Batch created with orders [772, 820, 792, 747, 807, 640, 516, 706, 661, 527, 745, 977, 954, 448, 956, 653, 560, 505, 898, 761, 938, 847, 768, 700, 702, 744, 776, 916] (size: 149). 
+Picker 1 starts tour (tour_time: 10.54 min).
+Backlog after batching: 200 orders (size: 1374)
+Backlog before batching: 202 orders (size: 1382)
+TIME 110.3: Batch created with orders [1000, 834, 894, 1026, 233, 1023, 763, 996, 1037, 945, 748, 981, 1018, 964, 912] (size: 150). 
+Picker 4 starts tour (tour_time: 16.17 min).
+Backlog after batching: 187 orders (size: 1232)
+Backlog before batching: 188 orders (size: 1239)
+TIME 110.8: Batch created with orders [1032, 877, 815, 973, 1007, 1028, 976, 750, 987, 878, 804, 769, 1042, 886, 867, 911, 544, 1031, 777] (size: 150). 
+Picker 5 starts tour (tour_time: 13.71 min).
+Backlog after batching: 169 orders (size: 1089)
+Backlog before batching: 181 orders (size: 1164)
+TIME 114.8: Batch created with orders [426, 441, 1038, 1053, 1051, 1015, 1058, 1044, 852, 794, 984, 806, 559, 825, 1059, 1017, 827, 1036, 983, 797] (size: 150). 
+Picker 3 starts tour (tour_time: 13.79 min).
+Backlog after batching: 161 orders (size: 1014)
+Backlog before batching: 182 orders (size: 1161)
+TIME 119.9: Batch created with orders [460, 1076, 1068, 946, 927, 746, 942, 762, 948, 631, 835, 1078, 966, 959, 672, 971, 701, 897, 808, 1066] (size: 150). 
+Picker 1 starts tour (tour_time: 13.29 min).
+Backlog after batching: 162 orders (size: 1011)
+Backlog before batching: 162 orders (size: 1011)
+TIME 120.0: Batch created with orders [919, 926, 759, 972, 991, 880, 1054, 1070, 928, 733, 1005, 741, 1010, 742, 1041, 468, 1061, 1040, 1021, 1035, 850, 518] (size: 150). 
+Picker 2 starts tour (tour_time: 13.25 min).
+Backlog after batching: 140 orders (size: 861)

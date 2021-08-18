@@ -1,0 +1,32 @@
+
+###### DATA INFORMATION ########
+simulation_period: 120
+backlog: 100
+min_lead: 30
+arrivals: mean = 6, stddev = 2 (interval = 15)
+seed_no: 3551
+
+
+###### SIMULATION RUN ########
+simulation_period: 120
+thresholds: 375 (size_ths), 25 (urgency_ths)
+pickers: 5 with capacity 150
+lead time: 10
+batching strategy: FCFS
+
+Execution time: 15.907140493392944
+
+CUSTOMER SERVICE METRICS
+no_finished: 547
+no_delayed: 125 (now: 97, later: 28)
+avg_delay_time: 6.7472740597896275
+avg_waiting_time: 17.577725373722103
+avg_service_time: 18.982885729331194
+delivery_rate: 66.06280193236715
+delay_finished_ratio: 22.851919561243143
+
+EFFICIENCY METRICS
+total_travel_time: 594.8160024647783
+time_per_item: 0.6002179641420569
+items_per_tour: 29.147058823529413
+

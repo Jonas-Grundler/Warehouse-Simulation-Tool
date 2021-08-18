@@ -1,0 +1,201 @@
+
+###### DATA INFORMATION ########
+simulation_period: 120
+backlog: 100
+min_lead: 30
+arrivals: mean = 8, stddev = 2 (interval = 15)
+seed_no: 3553
+
+
+###### SIMULATION RUN ########
+simulation_period: 120
+thresholds: 375 (size_ths), 25 (urgency_ths)
+pickers: 5 with capacity 150
+lead time: 10
+batching strategy: percentage_flexible_weighting
+c: 0.25
+threshold percentage: 0.33
+seed rule: longest_travel_time
+
+size_criterion fulfilled (744)
+urgency_criterion fulfilled (60.0)
+Backlog before batching: 100 orders (size: 744)
+TIME 0: Batch created with orders [22, 16, 98, 64, 99, 50, 61, 29, 53, 72, 51, 41, 3, 31, 80] (size: 150). Priority-based batching (priority_weight = 0.75) was applied.
+Picker 1 starts tour (tour_time: 14.79 min).
+Backlog after batching: 85 orders (size: 594)
+Backlog before batching: 86 orders (size: 602)
+TIME 0.0: Batch created with orders [44, 14, 84, 2, 63, 81, 76, 67, 32, 68, 15, 40, 7, 52, 47, 6, 33, 55, 62, 78, 90] (size: 150). Priority-based batching (priority_weight = 0.75) was applied.
+Picker 2 starts tour (tour_time: 15.33 min).
+Backlog after batching: 65 orders (size: 452)
+Backlog before batching: 66 orders (size: 463)
+TIME 0.1: Batch created with orders [35, 74, 57, 87, 39, 70, 45, 66, 75, 91, 93, 100, 9, 65, 38, 11, 96, 17, 12, 71, 10, 25, 85, 37, 24, 94, 19, 83] (size: 150). Priority-based batching (priority_weight = 0.75) was applied.
+Picker 3 starts tour (tour_time: 17.46 min).
+Backlog after batching: 38 orders (size: 313)
+size_criterion fulfilled (383)
+Backlog before batching: 49 orders (size: 383)
+TIME 1.8: Batch created with orders [79, 88, 58, 104, 20, 43, 23, 95, 113, 30, 49, 107, 105, 77, 112, 82] (size: 150). Similarity-based batching (priority_weight = 0.25) was applied.
+Picker 4 starts tour (tour_time: 15.67 min).
+Backlog after batching: 33 orders (size: 233)
+size_criterion fulfilled (377)
+Backlog before batching: 52 orders (size: 377)
+TIME 3.7: Batch created with orders [60, 126, 18, 97, 108, 54, 26, 120, 129, 1, 127, 48, 34, 102, 132, 42, 103, 125, 8, 59] (size: 150). Similarity-based batching (priority_weight = 0.25) was applied.
+Picker 5 starts tour (tour_time: 17.38 min).
+Backlog after batching: 32 orders (size: 227)
+size_criterion fulfilled (381)
+Backlog before batching: 124 orders (size: 844)
+TIME 14.8: Batch created with orders [190, 174, 218, 169, 184, 180, 214, 4, 209, 118, 167, 193, 122, 210, 138, 166, 116, 221, 144, 183] (size: 150). Similarity-based batching (priority_weight = 0.25) was applied.
+Picker 1 starts tour (tour_time: 15.33 min).
+Backlog after batching: 104 orders (size: 694)
+Backlog before batching: 106 orders (size: 708)
+TIME 15.4: Batch created with orders [205, 192, 135, 140, 216, 137, 195, 142, 119, 168, 197, 223, 170, 200, 212, 46] (size: 150). Similarity-based batching (priority_weight = 0.25) was applied.
+Picker 2 starts tour (tour_time: 14.71 min).
+Backlog after batching: 90 orders (size: 558)
+Backlog before batching: 105 orders (size: 662)
+TIME 17.5: Batch created with orders [237, 236, 235, 227, 178, 199, 239, 106, 159, 151, 233, 226, 202, 215, 228, 201, 225, 157, 171, 123, 234, 194] (size: 150). Similarity-based batching (priority_weight = 0.25) was applied.
+Picker 4 starts tour (tour_time: 16.33 min).
+Backlog after batching: 83 orders (size: 512)
+Backlog before batching: 84 orders (size: 516)
+TIME 17.5: Batch created with orders [148, 231, 162, 155, 222, 177, 56, 101, 117, 114, 230, 203, 149, 213, 176, 204, 156, 241, 186, 191, 86, 73, 134] (size: 150). Similarity-based batching (priority_weight = 0.25) was applied.
+Picker 3 starts tour (tour_time: 13.29 min).
+Backlog after batching: 61 orders (size: 366)
+size_criterion fulfilled (375)
+urgency_criterion fulfilled (46.0)
+Backlog before batching: 97 orders (size: 571)
+TIME 21.1: Batch created with orders [277, 248, 255, 207, 196, 5, 258, 268, 242, 269, 259, 245, 256, 278, 249, 163, 188, 124, 238, 265, 253, 150, 172, 254, 165, 211] (size: 150). Priority-based batching (priority_weight = 0.75) was applied.
+Picker 5 starts tour (tour_time: 18.5 min).
+Backlog after batching: 71 orders (size: 421)
+Backlog before batching: 144 orders (size: 1076)
+TIME 30.1: Batch created with orders [299, 290, 309, 332, 320, 295, 285, 340, 317, 341, 334, 288, 198, 141, 111, 294, 330, 153, 305] (size: 150). Priority-based batching (priority_weight = 0.75) was applied.
+Picker 2 starts tour (tour_time: 15.17 min).
+Backlog after batching: 125 orders (size: 926)
+Backlog before batching: 126 orders (size: 929)
+TIME 30.1: Batch created with orders [329, 301, 331, 338, 343, 337, 348, 296, 304, 291, 316, 302, 339, 350, 271, 347] (size: 150). Priority-based batching (priority_weight = 0.75) was applied.
+Picker 1 starts tour (tour_time: 17.21 min).
+Backlog after batching: 110 orders (size: 779)
+Backlog before batching: 113 orders (size: 793)
+TIME 30.8: Batch created with orders [346, 262, 128, 313, 289, 181, 303, 131, 139, 275, 147, 115, 306, 307, 145, 345, 344, 325, 300, 185, 276, 327] (size: 150). Similarity-based batching (priority_weight = 0.25) was applied.
+Picker 3 starts tour (tour_time: 15.04 min).
+Backlog after batching: 91 orders (size: 643)
+Backlog before batching: 106 orders (size: 767)
+TIME 33.8: Batch created with orders [133, 257, 28, 13, 89, 219, 121, 173, 243, 206, 109, 21, 187, 328, 240, 27, 272, 92, 351, 182, 220, 189, 152, 368, 356, 335, 314, 247, 261, 36, 354] (size: 150). Similarity-based batching (priority_weight = 0.25) was applied.
+Picker 4 starts tour (tour_time: 13.96 min).
+Backlog after batching: 75 orders (size: 617)
+Backlog before batching: 101 orders (size: 826)
+TIME 39.6: Batch created with orders [310, 308, 282, 388, 366, 311, 217, 280, 352, 146, 286, 349, 250, 164, 324, 287] (size: 150). Similarity-based batching (priority_weight = 0.25) was applied.
+Picker 5 starts tour (tour_time: 15.42 min).
+Backlog after batching: 85 orders (size: 676)
+Backlog before batching: 116 orders (size: 960)
+TIME 45.2: Batch created with orders [246, 251, 390, 136, 403, 315, 383, 396, 364, 384, 426, 386, 393, 402, 381, 264, 274, 400, 336, 422, 419] (size: 150). Similarity-based batching (priority_weight = 0.25) was applied.
+Picker 2 starts tour (tour_time: 14.5 min).
+Backlog after batching: 95 orders (size: 810)
+Backlog before batching: 100 orders (size: 850)
+TIME 45.9: Batch created with orders [389, 281, 298, 292, 398, 323, 297, 361, 312, 424, 405, 385, 326] (size: 150). Similarity-based batching (priority_weight = 0.25) was applied.
+Picker 3 starts tour (tour_time: 13.46 min).
+Backlog after batching: 87 orders (size: 700)
+Backlog before batching: 112 orders (size: 892)
+TIME 47.3: Batch created with orders [427, 444, 416, 433, 456, 439, 387, 279, 421, 452, 449, 435, 376, 392] (size: 150). Similarity-based batching (priority_weight = 0.25) was applied.
+Picker 1 starts tour (tour_time: 17.88 min).
+Backlog after batching: 98 orders (size: 742)
+Backlog before batching: 104 orders (size: 778)
+TIME 47.8: Batch created with orders [460, 415, 229, 436, 267, 371, 355, 293, 461, 441, 423, 418, 375, 380, 175, 370, 378, 443] (size: 150). Similarity-based batching (priority_weight = 0.25) was applied.
+Picker 4 starts tour (tour_time: 14.83 min).
+Backlog after batching: 86 orders (size: 628)
+urgency_criterion fulfilled (44.0)
+Backlog before batching: 136 orders (size: 1019)
+TIME 55.0: Batch created with orders [497, 500, 479, 489, 485, 493, 508, 510, 467, 476, 475, 470, 438, 504, 486, 447, 484, 463] (size: 150). Priority-based batching (priority_weight = 0.75) was applied.
+Picker 5 starts tour (tour_time: 17.88 min).
+Backlog after batching: 118 orders (size: 869)
+Backlog before batching: 161 orders (size: 1191)
+TIME 59.3: Batch created with orders [531, 539, 252, 520, 549, 522, 514, 469, 342, 544, 319, 321, 537, 519, 471, 432, 455, 454, 505, 445, 547, 161] (size: 150). Priority-based batching (priority_weight = 0.75) was applied.
+Picker 3 starts tour (tour_time: 15.67 min).
+Backlog after batching: 139 orders (size: 1041)
+Backlog before batching: 143 orders (size: 1073)
+TIME 59.7: Batch created with orders [546, 494, 559, 507, 540, 487, 69, 362, 359, 270, 143, 555, 490, 527, 548, 453, 404, 513, 480, 358, 478, 518, 481, 538] (size: 150). Similarity-based batching (priority_weight = 0.25) was applied.
+Picker 2 starts tour (tour_time: 13.29 min).
+Backlog after batching: 119 orders (size: 923)
+Backlog before batching: 139 orders (size: 1079)
+TIME 62.6: Batch created with orders [408, 542, 543, 318, 492, 450, 414, 369, 506, 244, 517, 545, 529, 551, 458, 412, 575, 515, 379, 503] (size: 150). Similarity-based batching (priority_weight = 0.25) was applied.
+Picker 4 starts tour (tour_time: 13.12 min).
+Backlog after batching: 119 orders (size: 929)
+Backlog before batching: 140 orders (size: 1079)
+TIME 65.2: Batch created with orders [482, 554, 498, 562, 428, 442, 550, 561, 596, 525, 473, 512, 409, 526, 552, 511, 284, 585] (size: 150). Similarity-based batching (priority_weight = 0.25) was applied.
+Picker 1 starts tour (tour_time: 15.08 min).
+Backlog after batching: 122 orders (size: 929)
+Backlog before batching: 192 orders (size: 1409)
+TIME 72.9: Batch created with orders [472, 431, 602, 437, 464, 601, 208, 642, 465, 610, 541, 659, 593, 571, 590, 477, 397, 607, 451, 654, 491, 637, 629] (size: 150). Similarity-based batching (priority_weight = 0.25) was applied.
+Picker 5 starts tour (tour_time: 13.42 min).
+Backlog after batching: 169 orders (size: 1259)
+Backlog before batching: 169 orders (size: 1259)
+TIME 73.0: Batch created with orders [394, 273, 413, 401, 360, 410, 663, 457, 536, 448, 523, 516, 462, 628, 632, 620, 553, 425, 578, 608, 623, 572, 634, 635, 573] (size: 150). Similarity-based batching (priority_weight = 0.25) was applied.
+Picker 2 starts tour (tour_time: 13.58 min).
+Backlog after batching: 144 orders (size: 1109)
+Backlog before batching: 159 orders (size: 1219)
+TIME 75.0: Batch created with orders [263, 582, 643, 652, 160, 564, 224, 483, 588, 624, 434, 429, 591, 283, 686, 563, 666, 382, 627, 662] (size: 150). Similarity-based batching (priority_weight = 0.25) was applied.
+Picker 3 starts tour (tour_time: 12.62 min).
+Backlog after batching: 139 orders (size: 1069)
+Backlog before batching: 144 orders (size: 1102)
+TIME 75.7: Batch created with orders [533, 617, 625, 597, 649, 581, 603, 565, 567, 658, 568] (size: 150). Similarity-based batching (priority_weight = 0.25) was applied.
+Picker 4 starts tour (tour_time: 15.5 min).
+Backlog after batching: 133 orders (size: 952)
+urgency_criterion fulfilled (85.0)
+Backlog before batching: 159 orders (size: 1170)
+TIME 80.3: Batch created with orders [700, 711, 650, 703, 709, 636, 501, 322, 708, 698, 110, 560, 639, 676, 674] (size: 150). Priority-based batching (priority_weight = 0.75) was applied.
+Picker 1 starts tour (tour_time: 15.17 min).
+Backlog after batching: 144 orders (size: 1020)
+Backlog before batching: 188 orders (size: 1347)
+TIME 86.3: Batch created with orders [723, 407, 499, 577, 759, 689, 733, 612, 574, 725, 732, 373, 724, 595] (size: 150). Priority-based batching (priority_weight = 0.75) was applied.
+Picker 5 starts tour (tour_time: 14.92 min).
+Backlog after batching: 174 orders (size: 1197)
+Backlog before batching: 177 orders (size: 1231)
+TIME 86.6: Batch created with orders [558, 715, 599, 680, 605, 744, 758, 727, 586, 660, 685, 745, 734, 372, 741, 719, 619, 704, 707] (size: 150). Priority-based batching (priority_weight = 0.75) was applied.
+Picker 2 starts tour (tour_time: 15.0 min).
+Backlog after batching: 158 orders (size: 1081)
+Backlog before batching: 164 orders (size: 1124)
+TIME 87.6: Batch created with orders [430, 740, 535, 534, 488, 391, 606, 528, 365, 695, 702, 768, 766, 761, 502, 411, 420, 406, 521, 753, 524, 767, 673, 665] (size: 150). Priority-based batching (priority_weight = 0.75) was applied.
+Picker 3 starts tour (tour_time: 15.21 min).
+Backlog after batching: 140 orders (size: 974)
+Backlog before batching: 171 orders (size: 1253)
+TIME 91.2: Batch created with orders [778, 780, 783, 792, 779, 755, 587, 799, 656, 771] (size: 150). Similarity-based batching (priority_weight = 0.25) was applied.
+Picker 4 starts tour (tour_time: 17.54 min).
+Backlog after batching: 161 orders (size: 1103)
+Backlog before batching: 180 orders (size: 1276)
+TIME 95.5: Batch created with orders [790, 789, 664, 692, 748, 772, 713, 774, 791, 773, 584, 777, 440, 556, 738, 730] (size: 150). Similarity-based batching (priority_weight = 0.25) was applied.
+Picker 1 starts tour (tour_time: 14.75 min).
+Backlog after batching: 164 orders (size: 1126)
+Backlog before batching: 201 orders (size: 1443)
+TIME 101.2: Batch created with orders [668, 696, 770, 760, 130, 333, 589, 787, 614, 804, 466, 509, 615, 179, 641, 363, 749, 699, 693, 353, 266, 260, 671, 598, 570, 417] (size: 150). Similarity-based batching (priority_weight = 0.25) was applied.
+Picker 5 starts tour (tour_time: 13.5 min).
+Backlog after batching: 175 orders (size: 1293)
+Backlog before batching: 179 orders (size: 1322)
+TIME 101.6: Batch created with orders [788, 694, 459, 158, 809, 849, 691, 746, 706, 446, 721, 576, 805, 833, 798, 594, 626, 684, 834, 653, 679, 633, 836, 837] (size: 150). Similarity-based batching (priority_weight = 0.25) was applied.
+Picker 2 starts tour (tour_time: 13.29 min).
+Backlog after batching: 155 orders (size: 1172)
+Backlog before batching: 166 orders (size: 1248)
+TIME 102.8: Batch created with orders [781, 678, 611, 811, 861, 842, 820, 647, 722, 786, 714, 604, 651, 367, 825, 374, 616, 796] (size: 150). Similarity-based batching (priority_weight = 0.25) was applied.
+Picker 3 starts tour (tour_time: 12.67 min).
+Backlog after batching: 148 orders (size: 1098)
+Backlog before batching: 191 orders (size: 1399)
+TIME 108.8: Batch created with orders [697, 232, 710, 377, 640, 776, 669, 808, 911, 495, 657, 872, 870, 609, 751, 600, 793, 824, 728, 638, 897, 763, 854, 844, 812, 769, 716, 868] (size: 150). Similarity-based batching (priority_weight = 0.25) was applied.
+Picker 4 starts tour (tour_time: 10.58 min).
+Backlog after batching: 163 orders (size: 1249)
+urgency_criterion fulfilled (110.0)
+Backlog before batching: 177 orders (size: 1383)
+TIME 110.2: Batch created with orders [816, 888, 917, 705, 929, 857, 583, 813] (size: 150). Priority-based batching (priority_weight = 0.75) was applied.
+Picker 1 starts tour (tour_time: 17.04 min).
+Backlog after batching: 169 orders (size: 1233)
+Backlog before batching: 207 orders (size: 1478)
+TIME 114.7: Batch created with orders [807, 954, 682, 877, 866, 828, 737, 848, 743, 736, 961, 675, 958, 934, 900, 901, 557, 815, 677, 874, 474, 566, 915, 956, 757, 940, 938, 912] (size: 150). Priority-based batching (priority_weight = 0.75) was applied.
+Picker 5 starts tour (tour_time: 14.46 min).
+Backlog after batching: 179 orders (size: 1328)
+Backlog before batching: 182 orders (size: 1345)
+TIME 114.9: Batch created with orders [922, 916, 925, 907, 735, 949, 618, 739, 882, 395, 863, 898, 873, 819, 941, 876, 661, 899, 865, 953, 592, 890] (size: 150). Priority-based batching (priority_weight = 0.75) was applied.
+Picker 2 starts tour (tour_time: 14.08 min).
+Backlog after batching: 160 orders (size: 1195)
+Backlog before batching: 168 orders (size: 1283)
+TIME 115.5: Batch created with orders [399, 976, 966, 875, 932, 823, 978, 973, 975, 742, 878, 927, 908, 881, 968, 670, 784] (size: 150). Priority-based batching (priority_weight = 0.75) was applied.
+Picker 3 starts tour (tour_time: 15.0 min).
+Backlog after batching: 151 orders (size: 1133)
+Backlog before batching: 186 orders (size: 1418)
+TIME 119.3: Batch created with orders [980, 851, 992, 762, 532, 989, 984, 622, 969, 357, 894, 906, 913] (size: 150). Priority-based batching (priority_weight = 0.75) was applied.
+Picker 4 starts tour (tour_time: 15.88 min).
+Backlog after batching: 173 orders (size: 1268)
